@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-family: "Montserrat", serif;
+  }
+
+
+  .banner-background {
+    background-image: url('./assets/50 sale.jpg'); /* Ensure the path is correct */
+    background-size: cover;
+    background-position: center;
+  }
