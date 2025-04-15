@@ -3,9 +3,7 @@ node_modules/
 .env
 
 utilize/
-# Vite
-dist/
-.vite/
+
 
 
 
